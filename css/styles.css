@@ -85,9 +85,15 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.button-hero-section:hover,
-:focus {
+.button-hero-section:focus,
+:hover {
   color: #404bbf;
+}
+.team-company {
+  background-color: #f4f4fd;
+}
+.team-company-item {
+  background-color: #ffffff;
 }
 
 .item-business-function {
@@ -115,8 +121,8 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .foto-our-team {
@@ -180,13 +186,13 @@ body {
   letter-spacing: 0.32px;
 }
 .logo-footer {
-  color: var(--cloud, #f4f4fd);
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .item-footer {
@@ -195,9 +201,12 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-footer {
   background: var(--navyblue, #2e2f42);
+}
+.text-studio-footer {
+  color: #f4f4fd;
 }
