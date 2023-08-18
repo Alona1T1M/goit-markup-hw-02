@@ -87,7 +87,7 @@ body {
 }
 .button-hero-section:focus,
 :hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .team-company {
   background-color: #f4f4fd;
