@@ -9,19 +9,31 @@ button {
 }
 
 body {
-  font-family: "Roboto", "Raleway";
-  color: #f4f4fd, #e7e9fc, #4d5ae5, #2e2f42, #434455, #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #fff;
 }
 .logotype {
-  color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.text-studio {
+  color: #2e2f42;
+}
+.menu-link {
+  color: #2e2f42;
+}
+.menu-link:hover {
+  color: #404bbf;
+}
+.menu-link:focus {
+  color: #404bbf;
 }
 .menu-list {
   color: var(--navyblue, #2e2f42);
@@ -33,13 +45,23 @@ body {
   letter-spacing: 0.32px;
 }
 .address {
+  font-style: normal;
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+.address-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-list-item:focus,
+:hover {
+  color: #404bbf;
 }
 .hero-section {
   background: var(--navyblue, #2e2f42);
@@ -51,14 +73,23 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .button-hero-section {
-  border-radius: 4px;
-  background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
+.button-hero-section:hover,
+:focus {
+  color: #404bbf;
+}
+
 .item-business-function {
   color: var(--navyblue, #2e2f42);
   font-family: Roboto;
@@ -113,15 +144,18 @@ body {
   letter-spacing: 0.32px;
 }
 .portfolio {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  font-family: Roboto;
+  background-color: #f4f4fd;
+}
+.portfolio-title {
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio-item {
+  background-color: #ffffff;
 }
 .foto-portfolio {
   background: url(<path-to-image>),
