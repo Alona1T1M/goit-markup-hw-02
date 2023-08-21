@@ -29,9 +29,7 @@ body {
 .menu-link {
   color: #2e2f42;
 }
-.menu-link:hover {
-  color: #404bbf;
-}
+.menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
@@ -59,10 +57,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-list-item:focus,
-:hover {
+.address-list-item:hover,
+.address-list-item:focus {
   color: #404bbf;
 }
+
 .hero-section {
   background: var(--navyblue, #2e2f42);
 }
@@ -86,9 +85,10 @@ body {
   color: #ffffff;
 }
 .button-hero-section:focus,
-:hover {
+.button-hero-section:hover {
   background-color: #404bbf;
 }
+
 .team-company {
   background-color: #f4f4fd;
 }
